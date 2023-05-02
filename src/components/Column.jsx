@@ -112,6 +112,7 @@ export default function Column({ state }) {
               top: "50%",
               left: "50%",
               transform: "translate(-50%, -50%)",
+              transition: "all .3s linear",
             }}
           >
             <button
@@ -121,7 +122,7 @@ export default function Column({ state }) {
               style={{
                 top: "-50%",
                 left: "50%",
-                transform: "translate(-50%, -50%)"
+                transform: "translate(-50%, -50%)",
               }}
             >
               Close

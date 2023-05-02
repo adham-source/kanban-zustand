@@ -5,7 +5,7 @@ const Column = lazy(() => import("./components/Column"))
 function App() {
   return (
     <div
-      className="container px-4 py-4 gap-2"
+      className="container mx-auto px-4 py-4 gap-2"
       style={{
         display: "grid",
         gridTemplateColumns: "repeat(auto-fit, minmax(20rem, 1fr))",
