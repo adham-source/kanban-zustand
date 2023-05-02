@@ -11,6 +11,9 @@ export default function Task({ id }) {
   return (
     <div
       className="task my-3 flex flex-col bg-white rounded-md shadow-md p-4"
+      style={{
+        cursor: "move"
+      }}
       draggable
       onDragStart={() => {
         setDraggedTask(task.id)
